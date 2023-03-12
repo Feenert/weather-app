@@ -15,7 +15,7 @@ const [windGust, setWindGust] = useState('');
 const options = {
   method: 'GET',
   url: 'https://weatherapi-com.p.rapidapi.com/current.json',
-  params: {q: auto:ip},
+  params: {q: '85008'},
   headers: {
     'X-RapidAPI-Key': '0933fce9dbmsh3ced69b6ee84efdp1c2a1ajsn29cff3fad02d',
     'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
